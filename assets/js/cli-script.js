@@ -106,10 +106,10 @@ function addTerminalOutput(command){
     }
 
     if(command == "cv"){
-        window.open("./assets/cv.pdf");
+        window.open("./assets/docs/cv.pdf");
         document.getElementById("terminal-body").insertAdjacentHTML("beforeend",
         "<div class=\"terminal-output\">" +
-        "<a href=\"./assets/cv.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" >cv.pdf</a> is opened in new tab." +
+        "<a href=\"./assets/docs/cv.pdf\" target=\"_blank\" rel=\"noopener noreferrer\" >cv.pdf</a> is opened in new tab." +
         "</div>");
         return;
     }
